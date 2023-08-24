@@ -1,0 +1,18 @@
+server:
+  port: 9031
+
+
+spring:
+  application:
+    name: MTO - REACT JS 
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+         
